@@ -4,4 +4,5 @@ usethis::git_default_branch_rename(to = "gh-pages")
 usethis::create_github_token()
 access token: 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
 gitcreds::gitcreds_set()
-usethis::use_github()
+args(usethis::use_github)
+postcards::create_postcard(template = "trestles")
